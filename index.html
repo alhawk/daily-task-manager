@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Task Manager</title>
+
+    <!--STYLESHEET-->
+    <link href="style.css" rel="stylesheet">
+
+    <!--FONTS-->
+    <!--font-family: 'Poppins', sans-serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- font-family: 'Work Sans', sans-serif;-->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+
+    <!--FONT AWESOME ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!-- =========================================================
+        Start: <i class="fa fa-play">/i>
+        Pause: <i class="fas fa-pause"></i>
+        Stop: <i class="fa fa-stop"></i>
+        Add: <i class="fa fa-plus"></i>
+        Trash: <i class="fa fa-trash"></i>
+    ============================================================== -->
+</head>
+<body>
+    <header>
+        <h1>Daily Task Manager</h1>
+    </header>
+    <p>List your daily tasks here to ensure you get things done.</p>
+    <form>
+        <input type="text" class="task-input" placeholder="Create a new mission...">
+        <button class="add-task-button" type="submit">
+            <i class="fa fa-plus"></i>
+        </button>
+    </form>
+
+    <!--Activity List-->
+    <div class="task-container">
+        <ul class="task-list">
+            
+        </ul>
+    </div>
+   
+
+    <!--JAVASCRIPT LINK-->
+    <script src="main.js"></script>
+</body>
+</html>

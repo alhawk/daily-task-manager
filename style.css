@@ -1,0 +1,114 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(90deg, #141e30, #243b55);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 2rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+form button {
+    color: #243b55;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #ed553b;
+    color: white;
+}
+p,
+.task-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.task {
+    min-width: 30%;
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    padding-left: 0.5rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.task li {
+    flex: 1;
+}
+
+.complete-button {
+    margin-right: 0.1rem;
+}
+.complete-button,
+.delete-button {
+    background: #ed553b;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.complete-button:hover {
+    color: #ed553b;
+    background: white;
+}
+
+.delete-button {
+    background: #3caea3;
+}
+
+.delete-button:hover {
+    color: #3caea3;
+    background: white;
+}
+
+.task-list {
+    padding: 0rem 0.5rem;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fa-check,
+.fa-trash {
+    pointer-events: none;
+}
